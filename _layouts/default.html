@@ -1,15 +1,126 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>Hello World or Whatever lol...</h1>
-    <h2>Welcome to our CDC2022 project, now with interactive graphs</h2>
-    ![image](https://user-images.githubusercontent.com/54373990/194732336-ecf21d9e-83cb-4406-957d-6f602352f389.png)
 
-<div class='tableauPlaceholder' id='viz1665275123508' style='position: relative'><noscript><a href='#'><img alt='Deaths Per Storm ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DeathsPerStorm&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DeathsPerStorm&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;DeathsPerStorm&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665275123508');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-<div class='tableauPlaceholder' id='viz1665278456938' style='position: relative'><noscript><a href='#'><img alt='Property Damage Map ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;storm_details&#47;PropertyDamageMap&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='storm_details&#47;PropertyDamageMap' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;storm_details&#47;PropertyDamageMap&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1665278456938');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<html>
+  
+  <head>
+    <title>The history of aeronautics</title>
+
+    <meta charset="utf-8" />
+    <meta name="description" content="A parallax scrolling experiment using jQuery" />
+
+    <link rel="stylesheet" media="all" href="css/main.css" />
+
+    <script src="js/modernizr.custom.37797.js"></script> 
+    <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+    <script src="https://code.5g-o.com/wp-content/uploads/2020/02/jquery.min_.js"></script> 
+    <script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"></script>')</script>
+    <script src="js/parallax.js"></script>
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+      
+      <header id="branding">
+        <h1>The history of aeronautics</h1>
+      </header>
+      
+      <nav id="primary">
+        <ul>
+          <li>
+            <h1>First manned flights</h1>
+            <a class="manned-flight" href="#manned-flight">View</a>
+          </li>
+          <li>
+            <h1>The frameless parachute</h1>
+            <a class="frameless-parachute" href="#frameless-parachute">View</a>
+          </li>
+          <li>
+            <h1>Over the English Channel</h1>
+            <a class="english-channel" href="#english-channel">View</a>
+          </li>
+          <li>
+            <h1>About</h1>
+            <a class="about" href="#about">View</a>
+          </li>
+        </ul>
+      </nav>
+      
+      <div id="content">
+        <article id="manned-flight">
+          <header>
+            <h1>First manned flights</h1>
+          </header>
+          <p>The first clearly recorded instance of a balloon carrying passengers used hot air to generate buoyancy and was built by the brothers Joseph-Michel and Jacques-Etienne Montgolfier in Annonay, France. After experimenting with unmanned balloons and flights with animals, the first tethered balloon flight with humans on board took place on October 15, 1783.</p>
+          <nav class="next-prev">
+            <hr />
+            <a class="next frameless-parachute" href="#frameless-parachute">Next</a>
+          </nav>
+        </article>
+        
+        <article id="frameless-parachute">
+          <header>
+            <h1>The frameless parachute</h1>
+          </header>
+          <p>André-Jacques Garnerin carried out the first jump with a silk parachute on October 22, 1797 at Parc Monceau, Paris. Garnerin's first parachute resembled a closed umbrella before he ascended; at a height of approximately 3,000 feet he severed the rope that connected his parachute to the balloon, and the basket fell to earth. Garnerin emerged uninjured.</p>
+          <nav class="next-prev">
+            <a class="prev manned-flight" href="#manned-flight">Prev</a>
+            <hr />
+            <a class="next english-channel" href="#english-channel">Next</a>
+          </nav>
+        </article>
+        
+        <article id="english-channel">
+          <header>
+            <h1>Over the English Channel</h1>
+          </header>
+          <p>On January 7, 1785, Jean Pierre Blanchard and Dr. John Jeffries made the first flight over the English Channel, traveling from Dover to France. During the crossing the balloon lost altitude, so they began tossing everything in the gondola they possibly could, even their clothes. About two hours after take off, they crossed the French coast clad only in their underwear.</p>
+          <nav class="next-prev">
+            <a class="prev frameless-parachute" href="#frameless-parachute">Prev</a>
+            <hr />
+            <a class="next about" href="#about">Next</a>
+          </nav>
+        </article>
+        
+        <article id="about">
+          <header>
+            <h1>About</h1>
+          </header>
+          <p>This is a jQuery parallax scrolling experiment by Jonathan Nicol. <a href="http://f6design.com/journal/2011/08/06/build-a-parallel-scrolling-website-interface-with-jquery-and-css/">Read about it</a> on my blog.</p>
+          <nav class="next-prev">
+            <a class="prev english-channel" href="#english-channel">Prev</a>
+            <hr />
+          </nav>
+        </article>
+      </div>
+      
+      <!-- Parallax foreground -->
+      <div id="parallax-bg3">
+        <img id="bg3-1" src="img/balloon.png" width="529" height="757" alt="Montgolfier hot air balloon"/>
+        <img id="bg3-2" src="img/balloon2.png" width="603" height="583" alt="Frameless parachute"/>
+        <img id="bg3-3" src="img/balloon3.png" width="446" height="713" alt="Blanchard's air balloon"/>
+        <img id="bg3-4" src="img/ground.png" width="1104" height="684" alt="Landscape with trees and cows"/>
+      </div>
+      
+      <!-- Parallax  midground clouds -->
+      <div id="parallax-bg2">
+        <img id="bg2-1" src="img/cloud-lg1.png" alt="cloud"/>
+        <img id="bg2-2" src="img/cloud-lg1.png" alt="cloud"/>
+        <img id="bg2-3" src="img/cloud-lg1.png" alt="cloud"/>
+        <img id="bg2-4" src="img/cloud-lg1.png" alt="cloud"/>
+        <img id="bg2-5" src="img/cloud-lg1.png" alt="cloud"/>
+      </div>
+      
+      <!-- Parallax  background clouds -->
+      <div id="parallax-bg1">
+        <img id="bg1-1" src="img/cloud-lg2.png" alt="cloud"/>
+        <img id="bg1-2" src="img/cloud-lg2.png" alt="cloud"/>
+        <img id="bg1-3" src="img/cloud-lg2.png" alt="cloud"/>
+        <img id="bg1-4" src="img/cloud-lg2.png" alt="cloud"/>
+      </div>
+    
+    </div>
+  
   </body>
+  
 </html>
